@@ -228,20 +228,26 @@ export const BOSS_ABILITIES = {
   },
 }
 
-// Định nghĩa kiểu dữ liệu cho skin
+
+
+// Định nghĩa loại skin
 export type Skin = {
   id: string;
   name: string;
   price: number;
-  // thêm các trường khác nếu có
+  emoji: string; // Thêm emoji để tránh lỗi "Property 'emoji' does not exist"
 };
 
-// Khai báo danh sách skins (có thể nhập từ JSON hoặc tự định nghĩa)
+// Danh sách skins mẫu
 export const skins: Skin[] = [
-  { id: "skin1", name: "Skin A", price: 100 },
-  { id: "skin2", name: "Skin B", price: 200 },
-  // thêm skin khác nếu có
+  { id: "rocket", name: "Rocket Bird", price: 100, emoji: "🚀" },
+  { id: "alien", name: "Alien Flyer", price: 150, emoji: "👽" },
+  { id: "ninja", name: "Ninja Flap", price: 200, emoji: "🥷" },
+  // Thêm skins tùy thích ở đây...
 ];
+
+// Xuất ra cho bên ngoài dùng
+
 
 // Export để dùng ở nơi khác
 export const ENHANCED_SKINS = skins;
