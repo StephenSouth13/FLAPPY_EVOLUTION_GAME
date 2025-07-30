@@ -1,3 +1,4 @@
+//lib/constants/enhanced-items.ts
 export const ENHANCED_COMBAT_ITEMS = [
   {
     id: "triple_laser",
@@ -226,3 +227,23 @@ export const BOSS_ABILITIES = {
     ],
   },
 }
+
+// Định nghĩa kiểu dữ liệu cho skin
+export type Skin = {
+  id: string;
+  name: string;
+  price: number;
+  // thêm các trường khác nếu có
+};
+
+// Khai báo danh sách skins (có thể nhập từ JSON hoặc tự định nghĩa)
+export const skins: Skin[] = [
+  { id: "skin1", name: "Skin A", price: 100 },
+  { id: "skin2", name: "Skin B", price: 200 },
+  // thêm skin khác nếu có
+];
+
+// Export để dùng ở nơi khác
+export const ENHANCED_SKINS = skins;
+
+
