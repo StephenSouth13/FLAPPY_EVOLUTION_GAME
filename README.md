@@ -1,4 +1,5 @@
 # 🚀 FLAPPY EVOLUTION: Space Shooter
+><img width="3780" height="1733" alt="image" src="https://github.com/user-attachments/assets/334d9608-e80c-4bc5-aeea-357d74fb356b" />
 
 > **Tựa game web siêu gây nghiện hàng đầu** kết hợp giữa Flappy Bird, bắn đĩa bay, và hành trình xuyên thời không!  
 > Điều khiển nhân vật bay vượt chướng ngại vật, tiêu diệt UFO, thu thập vật phẩm trong bong bóng và tiến hóa qua **10 vũ trụ** từ khủng long đến không gian vũ trụ.
